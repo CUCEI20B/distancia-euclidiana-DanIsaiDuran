@@ -1,6 +1,6 @@
 import math
 
-def distancia_euclidiana(x1=0, x2=0, y1=0, y2=0):
+def distancia_euclidiana(x_1, y_1, x_2, y_2):
 
-    return(math.sqrt(pow(x2-x1, 2) + pow(y2-y1, 2)))
+     return(math.sqrt(pow(x_2-x_1, 2) + pow(y_2-y_1, 2)))
     
